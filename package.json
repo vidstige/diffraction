@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --out-dir docs/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Samuel Carlsson",
+  "repository": "https://github.com/vidstige/diffraction/",
   "license": "ISC",
   "dependencies": {
     "dat.gui": "^0.7.6",
